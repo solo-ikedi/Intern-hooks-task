@@ -1,4 +1,5 @@
-// vite.config.js
-export default {
-  base: '/Intern-hooks-task/', 
-}
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/Intern-hooks-task/',
+});
