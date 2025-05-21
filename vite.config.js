@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite';
 
-export default defineConfig({
-  base: '/Intern-hooks-task/',
+export default defineConfig(({ command }) => {
+  return {
+    base: command === 'serve' ? '/' : '/Intern-hooks-task/', 
+  }
 });
